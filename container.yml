@@ -2,6 +2,7 @@ Name: Container
 on: push
 jobs:
   node-docker:
+   runs-on: self-hosted
    runs-on: ubuntu-latest
    container:
     image: node:13.5.0-alpine3.10
