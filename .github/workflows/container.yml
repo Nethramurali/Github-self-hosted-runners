@@ -3,7 +3,7 @@ on: push
 jobs:
   node-docker:
    runs-on: self-hosted
-   runs-on: ubuntu
+   
    container:
     image: node:13.5.0-alpine3.10
    steps:
